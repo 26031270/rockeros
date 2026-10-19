@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock en Español</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #111;
+      color: #eee;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a0dad, #ff4500);
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #444;
+      border-radius: 5px;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    section {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    h2 {
+      color: #ff4500;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsivo para móviles */
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bandas de Rock en Español</h1>
+    <p>Zoé • Elefante • Maná • Enanitos Verdes • Enjambre</p>
+  </header>
+
+  <nav>
+    <a href="#zoe">Zoé</a>
+    <a href="#elefante">Elefante</a>
+    <a href="#mana">Maná</a>
+    <a href="#enanitos">Enanitos Verdes</a>
+    <a href="#enjambre">Enjambre</a>
+  </nav>
+
+  <main>
+    <section id="zoe">
+      <h2>Zoé</h2>
+      <p>Banda mexicana de rock alternativo con un estilo psicodélico y letras profundas.</p>
+    </section>
+
+    <section id="elefante">
+      <h2>Elefante</h2>
+      <p>Conocidos por su mezcla de pop-rock y baladas intensas que marcaron los 2000.</p>
+    </section>
+
+    <section id="mana">
+      <h2>Maná</h2>
+      <p>Una de las bandas más famosas de Latinoamérica, con himnos como "Rayando el Sol".</p>
+    </section>
+
+    <section id="enanitos">
+      <h2>Enanitos Verdes</h2>
+      <p>Grupo argentino con clásicos inolvidables como "La Muralla Verde" y "Luz de Día".</p>
+    </section>
+
+    <section id="enjambre">
+      <h2>Enjambre</h2>
+      <p>Banda mexicana con un estilo retro y letras melancólicas que conectan con nuevas generaciones.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Rock en Español - Página dedicada a las mejores bandas</p>
+  </footer>
+
+</body>
+</html>
